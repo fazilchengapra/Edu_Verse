@@ -2,23 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Londrina+Outline&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-*{
+* {
     text-decoration: none;
     margin: 0;
     padding: 0;
     list-style: none;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Outfit", sans-serif;
 }
-nav{
+
+nav {
     height: 80px;
     /* background-color: aliceblue; */
     width: 100%;
     position: relative;
 }
-label.logo{
+
+label.logo {
     color: #585B66;
     font-family: "Caveat", cursive;
     font-size: 35px;
@@ -27,31 +30,37 @@ label.logo{
     padding: 0 50px;
     font-weight: bold;
 }
-nav ul{
+
+nav ul {
     float: right;
     margin-right: 10px;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 25px;
 }
-nav ul li a{
+
+nav ul li a {
     font-size: 18px;
     color: #656770;
     text-transform: capitalize;
 }
-a.active,a:hover{
+
+a.active,
+a:hover {
     color: black;
     transition: 0.5s;
 }
 
-a.active{
+a.active {
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-decoration-color: #585B66;
 }
-.btn{
+
+.btn {
     font-size: 17px;
     padding: 10px 25px;
     border-radius: 18px;
@@ -59,11 +68,13 @@ a.active{
     font-weight: 450;
     background-color: #585B66;
 }
-.btn:hover{
+
+.btn:hover {
     color: white;
     transform: none;
 }
-.check-btn{
+
+.check-btn {
     font-size: 30px;
     color: #585B66;
     float: right;
@@ -72,42 +83,102 @@ a.active{
     cursor: pointer;
     display: none;
 }
-#check{
+
+#check {
     display: none;
 }
+
 .blur-img {
     position: absolute;
     top: 0;
     right: 0;
     height: 110px;
     width: 150px;
-    z-index: -1; /* Place it behind other nav elements */
+    z-index: -1;
+    /* Place it behind other nav elements */
     overflow: hidden;
 }
 
 .blur-img img {
     height: 100%;
     width: 100%;
-    object-fit: cover; /* Ensure the image covers the area */
+    object-fit: cover;
+}
+
+#hero {
+    margin-top: 50px;
+}
+
+.hero-body .image {
+    width: 40%;
+    height: 500px;
+    float: right;
+}
+
+.hero-body .contant {
+    margin-top: 60px;
+    width: 60%;
+    height: 500px;
+    float: left;
+    padding-left: 55px;
+}
+
+.hero-body .head {
+    font-size: xx-large;
+}
+
+.hero-body .discription p {
+    margin-top: 20px;
+    font-weight: 250;
+    padding-right: 50px;
+    line-height: 160%;
+}
+
+.hero-body img {
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 952px) {
-    label.logo{
+    label.logo {
         font-size: 30px;
         padding-left: 50px;
     }
-    nav ul li a{
+
+    nav ul li a {
         font-size: 16px;
     }
+    .hero-body .head {
+        font-size: larger;
+    }
+    .hero-body .discription p {
+        font-weight: 210;
+        line-height: 140%;
+    }
+
 }
+
+@media screen and (max-width: 1000px) {
+    .hero-body .head {
+        font-size: x-large;
+    }
+    .hero-body .discription p {
+        font-weight: 230;
+        line-height: 150%;
+    }
+}
+
 @media screen and (max-width: 858px) {
-    .check-btn{
+    .check-btn {
         display: block;
     }
-    .blur-img{
+
+    .blur-img {
         display: none;
     }
-    ul{
+
+    ul {
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -117,13 +188,34 @@ a.active{
         text-align: center;
         transition: all 0.5s;
     }
-    nav ul li{
+
+    nav ul li {
         display: block;
     }
-    nav ul li a{
+
+    nav ul li a {
         font-size: 20px;
     }
-    #check:checked ~ ul{
+
+    #check:checked~ul {
         left: 0;
+    }
+    .hero-body .contant,.image{
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    .hero-body .image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .hero-body img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .hero-body .contant{
+        padding-left: 20px;
     }
 }
