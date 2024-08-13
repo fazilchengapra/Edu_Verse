@@ -216,6 +216,6 @@ a.active {
         height: 100%;
     }
     .hero-body .contant{
-        padding-left: 20px;
+        padding: 0;
     }
 }
