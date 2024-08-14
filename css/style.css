@@ -149,12 +149,25 @@ a.active {
     nav ul li a {
         font-size: 16px;
     }
-    .hero-body .head {
+
+    .hero-body h1 {
         font-size: larger;
     }
+
     .hero-body .discription p {
+        font-size: small;
         font-weight: 210;
         line-height: 140%;
+    }
+
+    .hero-body .image {
+        width: 38%;
+        height: 300px;
+        float: right;
+    }
+
+    .hero-body .contant {
+        margin-top: 30px;
     }
 
 }
@@ -163,6 +176,7 @@ a.active {
     .hero-body .head {
         font-size: x-large;
     }
+
     .hero-body .discription p {
         font-weight: 230;
         line-height: 150%;
@@ -200,22 +214,31 @@ a.active {
     #check:checked~ul {
         left: 0;
     }
-    .hero-body .contant,.image{
-        width: 100%;
-        height: auto;
-        padding: 0;
+
+    .hero-body h1 {
+        font-size: large;
+        line-height: 150%;
     }
-    .hero-body .image{
-        width: 100%;
-        display: flex;
-        justify-content: center;
+
+    .hero-body .discription p {
+        font-size: smaller;
+        font-weight: 200;
+        line-height: 130%;
+    }
+
+    .hero-body .image {
+        width: 70%;
+        height: 300px;
+        float: none;
     }
     .hero-body img{
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
+        margin-left: 90px;
     }
     .hero-body .contant{
-        padding: 0;
+        width: 100%;
+    }
+
+    .hero-body .contant {
+        margin-top: 0;
     }
 }
