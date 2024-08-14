@@ -216,7 +216,7 @@ a.active {
     }
 
     .hero-body h1 {
-        font-size: large;
+        font-size: 105%;
         line-height: 150%;
     }
 
@@ -227,12 +227,12 @@ a.active {
     }
 
     .hero-body .image {
-        width: 70%;
-        height: 300px;
+        width: 93%;
+        height: 342px;
         float: none;
     }
     .hero-body img{
-        margin-left: 90px;
+        margin-left: 50px;
     }
     .hero-body .contant{
         width: 100%;
