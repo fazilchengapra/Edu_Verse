@@ -223,7 +223,7 @@ a.active {
     float: inline-end !important;
 }
 
-@media screen and (max-width: 952px) {
+@media screen and (max-width: 1034px) {
     label.logo {
         font-size: 30px;
         padding-left: 50px;
