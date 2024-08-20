@@ -222,6 +222,153 @@ a.active {
 .left-contant-img {
     float: inline-end !important;
 }
+.Unlock-Exclusive{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    float: left;
+    margin-top: 10px;
+    height: 850px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: linear-gradient(-90deg,#46494D, #8B9098);
+}
+
+.Unlock-Exclusive .sub-head{
+    color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.get-premium{
+    float: left;
+    margin-top: 20px;
+    height: 700px;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #656770;
+    
+}
+
+.get-premium .head-body{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    margin-top: 30px;
+}
+.get-premium .head-body .image{
+    float: left;
+    height: 100%;
+    width: 7%;
+}
+.get-premium .head{
+    float: left;
+    width: 23%;
+    height: 100%;
+    line-height: 70px;
+}
+.get-premium .head h3{
+    color: #FFBA54;
+    text-align: start;
+    font-size: 170%;
+    font-weight: 150;
+}
+.get-premium .head-body{
+    object-fit: cover;
+}
+.get-premium .discription{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.get-premium .contant{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+.get-premium .contant p{
+    color: white;
+    font-weight: 450;
+}
+.get-premium .plans{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.plans .essential, .elite{
+    float: left;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    background-image: linear-gradient(#767786, #62636F);
+}
+.plans .elite{
+    margin-left: 15px;
+    text-align: center;
+}
+.plans .essential h4, .elite h4{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 150%;
+    font-weight: 400;
+    color: white;
+}
+.button-box {
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	border-radius: 30px;
+	background: #727482
+}
+
+.toggle-btn {
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	text-align: center;
+    font-weight: 300;
+    color: white;
+}
+
+#btn,#btn2 {
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #646672;
+    border-width: 1.5px;
+    border-color: white;
+    border-style: solid;
+	border-radius: 30px;
+	transition: .5s;
+}
+.plan-btn{
+    border: none;
+    padding: 12px 28px;
+    border-radius: 20px;
+    background-color: #DBB071;
+    font-size: 110%;
+    color: white;
+    font-weight: 530;
+}
+.essential-annual, .elite-annual{
+    display: none;
+}
+
+.essential-annual del, .elite-annual del{
+    text-decoration: line-through;
+    font-weight: 400;
+    font-size: 16px;
+}
+
 
 @media screen and (max-width: 1034px) {
     label.logo {
