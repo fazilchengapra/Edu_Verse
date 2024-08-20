@@ -296,8 +296,8 @@ a.active {
 .get-premium .plans{
     width: 100%;
     height: 400px;
-    display: flex;
-    justify-content: center;
+    margin-left: 110px;
+    
 }
 .plans .essential, .elite{
     float: left;
@@ -306,6 +306,7 @@ a.active {
     text-align: center;
     background-image: linear-gradient(#767786, #62636F);
 }
+
 .plans .elite{
     margin-left: 15px;
     text-align: center;
@@ -399,12 +400,15 @@ a.active {
     .hero-body .contant {
         margin-top: 30px;
     }
-    .hero-body{
+
+    .hero-body {
         height: 713px;
     }
-    .hero-body .contant{
+
+    .hero-body .contant {
         height: 320px;
     }
+
     .card-body {
         width: 50%;
         height: 400px;
@@ -526,7 +530,7 @@ a.active {
 
     .card-body {
         width: 100%;
-        height: 400px;
+        height: 300px;
     }
 
     .card-body .contant {
@@ -565,4 +569,104 @@ a.active {
         line-height: 100%;
     }
 
+    .Unlock-Exclusive {
+        margin-top: 880px;
+        display: block;
+        height: 1150px;
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        background-image: linear-gradient(-90deg, #46494D, #8B9098);
+    }
+
+    .sub-head {
+        margin-top: 75px;
+    }
+
+    .Unlock-Exclusive .sub-head h3 {
+        margin-top: -28px;
+    }
+
+    .get-premium {
+        display: block;
+        margin-top: 5px;
+        height: 1076px;
+        border-radius: 20px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: #656770;
+
+    }
+
+    .get-premium .head-body {
+        display: block;
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .get-premium .head-body .image {
+        display: block;
+        float: left;
+        height: 100%;
+        width: 18%;
+    }
+
+    .get-premium .head-body .image img {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .get-premium .head {
+        display: block;
+        float: left;
+        width: 40%;
+        height: 100%;
+        line-height: 50px;
+    }
+
+    .get-premium .head h3 {
+        display: block;
+        color: #FFBA54;
+        text-align: start;
+        font-size: 120%;
+        font-weight: 150;
+    }
+
+    .get-premium .discription {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .get-premium .contant {
+        padding-left: 35px;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .get-premium .contant p {
+        font-size: 70%;
+        color: white;
+        font-weight: 450;
+    }
+    .get-premium .plans{
+        margin: 0;
+        padding: 0;
+        height: 829px;
+    }
+    .plans .essential,.plans .elite {
+        display: block;
+        margin-top: 10px;
+        width: 90%;
+        height: 50%;
+    }
+    .plans .essential{
+        margin-left: 15px;
+    }
 }
