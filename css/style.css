@@ -370,6 +370,59 @@ a.active {
     font-size: 16px;
 }
 
+.footer{
+    float: left;
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    border: solid 2px #D9D9D9;
+    margin-bottom: 1em;
+}
+.social-media, .Explore, .Support{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+}
+
+.social-media h1{
+    width: fit-content;
+    margin: 35px;
+    font-weight: 450;
+}
+.icons{
+    width: 100%;
+    height: 60px;
+    margin: 30px;
+}
+.insta, .facebook, .twitter, .discord{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.insta img, .facebook img, .twitter img, .discord img{
+    object-fit: cover;
+}
+
+.Explore, .Support{
+    text-align: center;
+}
+
+.Explore p:hover ,.Explore p:focus, .Support p:hover, .Support p:focus{
+    text-decoration: underline;
+    text-decoration-color: #8B9098;
+}
+
+.Explore .head, .Support .head{
+    margin-top: 45px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.rights{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0;
+}
+
 
 @media screen and (max-width: 1034px) {
     label.logo {
