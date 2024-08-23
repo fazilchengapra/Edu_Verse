@@ -222,7 +222,8 @@ a.active {
 .left-contant-img {
     float: inline-end !important;
 }
-.Unlock-Exclusive{
+
+.Unlock-Exclusive {
     margin-right: 5%;
     margin-left: 5%;
     margin-bottom: 20px;
@@ -231,15 +232,16 @@ a.active {
     height: 850px;
     width: 90%;
     border-radius: 20px;
-    background-image: linear-gradient(-90deg,#46494D, #8B9098);
+    background-image: linear-gradient(-90deg, #46494D, #8B9098);
 }
 
-.Unlock-Exclusive .sub-head{
+.Unlock-Exclusive .sub-head {
     color: white;
     margin-top: 40px;
     margin-left: 20px;
 }
-.get-premium{
+
+.get-premium {
     float: left;
     margin-top: 20px;
     height: 700px;
@@ -248,58 +250,68 @@ a.active {
     margin-left: 5%;
     margin-right: 5%;
     background-color: #656770;
-    
+
 }
 
-.get-premium .head-body{
+.get-premium .head-body {
     display: flex;
     justify-content: center;
     height: 70px;
     width: 100%;
     margin-top: 30px;
 }
-.get-premium .head-body .image{
+
+.get-premium .head-body .image {
     float: left;
     height: 100%;
     width: 7%;
 }
-.get-premium .head{
+
+.get-premium .head {
     float: left;
     width: 23%;
     height: 100%;
     line-height: 70px;
 }
-.get-premium .head h3{
+
+.get-premium .head h3 {
     color: #FFBA54;
     text-align: start;
     font-size: 170%;
     font-weight: 150;
 }
-.get-premium .head-body{
+
+.get-premium .head-body {
     object-fit: cover;
 }
-.get-premium .discription{
+
+.get-premium .discription {
     width: 100%;
     height: 150px;
     display: flex;
     justify-content: center;
 }
-.get-premium .contant{
+
+.get-premium .contant {
     float: left;
     width: 40%;
     height: 100%;
 }
-.get-premium .contant p{
+
+.get-premium .contant p {
     color: white;
     font-weight: 450;
 }
-.get-premium .plans{
+
+.get-premium .plans {
     width: 100%;
     height: 400px;
     margin-left: 110px;
-    
+
 }
-.plans .essential, .elite{
+
+.plans .essential,
+.elite {
     float: left;
     width: 40%;
     height: 100%;
@@ -307,51 +319,56 @@ a.active {
     background-image: linear-gradient(#767786, #62636F);
 }
 
-.plans .elite{
+.plans .elite {
     margin-left: 15px;
     text-align: center;
 }
-.plans .essential h4, .elite h4{
+
+.plans .essential h4,
+.elite h4 {
     margin-bottom: 20px;
     margin-top: 10px;
     font-size: 150%;
     font-weight: 400;
     color: white;
 }
+
 .button-box {
-	width: 220px;
-	margin: 35px auto;
-	position: relative;
-	border-radius: 30px;
-	background: #727482
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 30px;
+    background: #727482
 }
 
 .toggle-btn {
-	padding: 10px 30px;
-	cursor: pointer;
-	background: transparent;
-	border: 0;
-	outline: none;
-	position: relative;
-	text-align: center;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    text-align: center;
     font-weight: 300;
     color: white;
 }
 
-#btn,#btn2 {
-	left: 0;
-	top: 0;
-	position: absolute;
-	width: 110px;
-	height: 100%;
-	background: #646672;
+#btn,
+#btn2 {
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: #646672;
     border-width: 1.5px;
     border-color: white;
     border-style: solid;
-	border-radius: 30px;
-	transition: .5s;
+    border-radius: 30px;
+    transition: .5s;
 }
-.plan-btn{
+
+.plan-btn {
     border: none;
     padding: 12px 28px;
     border-radius: 20px;
@@ -360,17 +377,20 @@ a.active {
     color: white;
     font-weight: 530;
 }
-.essential-annual, .elite-annual{
+
+.essential-annual,
+.elite-annual {
     display: none;
 }
 
-.essential-annual del, .elite-annual del{
+.essential-annual del,
+.elite-annual del {
     text-decoration: line-through;
     font-weight: 400;
     font-size: 16px;
 }
 
-.footer{
+.footer {
     float: left;
     width: 100%;
     height: 300px;
@@ -378,46 +398,65 @@ a.active {
     border: solid 2px #D9D9D9;
     margin-bottom: 1em;
 }
-.social-media, .Explore, .Support{
+
+.social-media,
+.Explore,
+.Support {
     width: 33.3%;
     height: 100%;
     float: left;
 }
 
-.social-media h1{
+.social-media h1 {
     width: fit-content;
     margin: 35px;
     font-weight: 450;
 }
-.icons{
+
+.icons {
     width: 100%;
     height: 60px;
     margin: 30px;
 }
-.insta, .facebook, .twitter, .discord{
+
+.insta,
+.facebook,
+.twitter,
+.discord {
     width: 20%;
     height: 100%;
     float: left;
+    margin: 0;
 }
-.insta img, .facebook img, .twitter img, .discord img{
+
+.insta img,
+.facebook img,
+.twitter img,
+.discord img {
     object-fit: cover;
 }
 
-.Explore, .Support{
+.Explore,
+.Support {
     text-align: center;
 }
 
-.Explore p:hover ,.Explore p:focus, .Support p:hover, .Support p:focus{
+.Explore p:hover,
+.Explore p:focus,
+.Support p:hover,
+.Support p:focus {
     text-decoration: underline;
     text-decoration-color: #8B9098;
 }
 
-.Explore .head, .Support .head{
+.Explore .head,
+.Support .head {
     margin-top: 45px;
     font-weight: 400;
     text-decoration: none;
 }
-.rights{
+
+.rights {
     text-transform: capitalize;
     text-align: center;
     margin: 0;
@@ -506,17 +545,6 @@ a.active {
 
 }
 
-@media screen and (max-width: 1000px) {
-    .hero-body .head {
-        font-size: x-large;
-    }
-
-    .hero-body .discription p {
-        font-weight: 230;
-        line-height: 150%;
-    }
-}
-
 @media screen and (max-width: 858px) {
     .sub-head {
         font-size: 74%;
@@ -554,6 +582,10 @@ a.active {
         left: 0;
     }
 
+
+}
+
+@media (max-width: 600px) {
     .hero-body h1 {
         font-size: 105%;
         line-height: 150%;
@@ -708,18 +740,47 @@ a.active {
         color: white;
         font-weight: 450;
     }
-    .get-premium .plans{
+
+    .get-premium .plans {
         margin: 0;
         padding: 0;
         height: 829px;
     }
-    .plans .essential,.plans .elite {
+
+    .plans .essential,
+    .plans .elite {
         display: block;
         margin-top: 10px;
         width: 90%;
         height: 50%;
     }
-    .plans .essential{
+
+    .plans .essential {
         margin-left: 15px;
     }
+
+    .footer {
+        width: 100%;
+        height: 700px;
+    }
+
+    .social-media,
+    .Explore,
+    .Support {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .icons {
+        width: 90%;
+    }
+
+    .insta img,
+    .facebook img,
+    .twitter img,
+    .discord img {
+        object-fit: cover;
+    }
+
 }
