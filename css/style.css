@@ -934,3 +934,225 @@ a.active {
     }
 
 }
+
+/* Tablets in Landscape */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body .sub-head h3 {
+        font-weight: 500;
+        font-size: 185%;
+        padding-top: 20px;
+    }
+
+    .hero-body h1 {
+        font-size: 2.5rem;
+        line-height: 180%;
+    }
+
+    .hero-body .discription p {
+        font-size: 100%;
+        font-weight: 200;
+        line-height: 164%;
+    }
+
+    .hero-body img {
+        height: 22rem;
+        width: 23rem;
+        object-fit: cover;
+        position: absolute;
+    }
+
+    .hero-body .image {
+        width: 93%;
+        height: 342px;
+        float: none;
+    }
+
+
+    .hero-body img {
+        margin-left: 217px;
+    }
+
+    .hero-body .contant {
+        margin-top: -4px;
+        width: 100%;
+        height: 49%;
+    }
+
+    .card-body {
+        width: 100%;
+        height: 185px;
+    }
+
+    .card-body .contant {
+        float: left;
+        width: 50%;
+        height: 63%;
+    }
+
+    .card-body .contant h4 {
+        margin-top: 15px;
+        font-size: 120%;
+    }
+
+    .card-body .contant p {
+        margin-top: 10px;
+        width: 106%;
+        font-weight: 230;
+        line-height: 140%;
+    }
+
+    .card-body .image {
+        margin-top: 9px;
+        float: left;
+        width: 40%;
+        height: 50%;
+    }
+
+    .left-contant-img {
+        float: inline-start !important;
+    }
+
+    .card-body .image img {
+        object-fit: cover;
+        height: 151px;
+        width: 211px;
+        border-radius: 20px;
+    }
+
+    .card-p {
+        font-size: 90%;
+        font-weight: 200;
+        line-height: 100%;
+    }
+
+    .Unlock-Exclusive {
+        margin-top: 450px;
+        display: block;
+        height: 1172px;
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        background-image: linear-gradient(-90deg, #46494D, #8B9098);
+    }
+
+    .sub-head {
+        margin-top: 75px;
+    }
+
+    .Unlock-Exclusive .sub-head h3 {
+        margin-top: -28px;
+    }
+
+    .get-premium {
+        display: block;
+        margin-top: 5px;
+        height: 1076px;
+        border-radius: 20px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: #656770;
+
+    }
+
+    .get-premium .head-body {
+        display: block;
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .get-premium .head-body .image {
+        display: block;
+        float: left;
+        height: 100%;
+        width: 18%;
+    }
+
+    .get-premium .head-body .image img {
+        margin-left: 28px;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .get-premium .head {
+        display: block;
+        float: left;
+        width: 40%;
+        height: 100%;
+        line-height: 50px;
+    }
+
+    .get-premium .head h3 {
+        display: block;
+        color: #FFBA54;
+        text-align: start;
+        font-size: 140%;
+        font-weight: 150;
+    }
+
+    .get-premium .discription {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .get-premium .contant {
+        padding-left: 35px;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .get-premium .contant p {
+        font-size: 85%;
+        color: white;
+        font-weight: 450;
+    }
+
+    .get-premium .plans {
+        margin: 0;
+        padding: 0;
+        height: 829px;
+    }
+
+    .plans .essential,
+    .plans .elite {
+        display: block;
+        margin-top: 10px;
+        width: 90%;
+        height: 50%;
+    }
+
+    .plans .essential {
+        margin-left: 15px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 700px;
+    }
+
+    .social-media,
+    .Explore,
+    .Support {
+        text-align: center;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .icons {
+        width: 90%;
+    }
+
+    .insta img,
+    .facebook img,
+    .twitter img,
+    .discord img {
+        object-fit: cover;
+    }
+}
