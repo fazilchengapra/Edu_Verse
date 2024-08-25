@@ -661,39 +661,47 @@ a.active {
     height: 100%;
     width: 60%;
 }
-.contact-body{
+
+.contact-body {
     width: 90%;
     height: fit-content;
     margin-left: 5%;
     margin-right: 5%;
 }
-.contact-hero{
+
+.contact-hero {
     margin-top: 3rem;
     width: 100%;
     height: 300px;
     margin-bottom: 2rem;
 }
-.contact-hero .contact-image, .contact-hero .contact-contant{
+
+.contact-hero .contact-image,
+.contact-hero .contact-contant {
     float: left;
     width: 50%;
     height: 100%;
 }
-.contact-hero .contact-image img{
+
+.contact-hero .contact-image img {
     height: 100%;
     width: 90%;
     object-fit: cover;
     border-radius: 1.5rem;
 }
-.contact-hero .contact-contant h3{
+
+.contact-hero .contact-contant h3 {
     font-size: 2rem;
     margin-top: 4rem;
     font-weight: 550;
 }
-.contact-hero .contact-contant p{
+
+.contact-hero .contact-contant p {
     width: 28rem;
     margin-top: 4rem;
     line-height: 2rem;
 }
+
 .contact-form-body {
     margin-top: 5rem;
     margin-bottom: 3rem;
@@ -703,13 +711,14 @@ a.active {
     margin-right: 20%;
 }
 
-.contact-form-body h3{
+.contact-form-body h3 {
     padding-top: 2rem;
     font-size: 1.5rem;
     font-weight: 550;
     text-align: center;
 }
-.contact-form-body .form{
+
+.contact-form-body .form {
     margin-top: 2rem;
     width: 70%;
     height: 400px;
@@ -718,25 +727,28 @@ a.active {
     margin-bottom: 2rem;
 }
 
-.contact-form-body .form input{
+.contact-form-body .form input {
     width: 100%;
     height: 3rem;
     border-radius: 3rem;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
-    border:  1px solid #AFABAB;
+    border: 1px solid #AFABAB;
     padding-left: 1rem;
 }
-.label{
+
+.label {
     font-size: 1.3rem;
     font-weight: 550;
 }
-.btn-contact{
+
+.btn-contact {
     background-color: #4163DD;
     color: white;
     font-size: 1.2rem;
     font-weight: 550;
 }
+
 .contact-footer {
     float: left;
     width: 100%;
@@ -746,6 +758,150 @@ a.active {
     margin-bottom: 1em;
 }
 
+.course-body {
+    width: 90%;
+    height: fit-content;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.course-body .search {
+    margin-top: 2rem;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.course-body .search input {
+    width: 40%;
+    border-radius: 1.3rem;
+    border: 1px solid #656770;
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+
+.popular-courses, .new-arrivals {
+    float: left;
+    margin-top: 3rem;
+    width: 100%;
+    height: fit-content;
+}
+
+.course-card {
+    float: left;
+    margin-top: 4rem;
+    width: 23%;
+    margin-right: 2%;
+    height: 300px;
+    border-radius: 1rem;
+    border: 1px solid #656770;
+    margin-bottom: 1rem;
+}
+
+.course-card .image {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    float: left;
+    width: 100%;
+    height: 45%;
+}
+
+.course-card .image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.course-card .contant {
+    float: left;
+    width: 100%;
+    height: 55%;
+}
+
+.course-card .contant h4 {
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+.course-card .contant p {
+    margin: 0;
+    padding: 0;
+    margin-top: .5rem;
+    padding-left: 1rem;
+    font-weight: 550;
+}
+
+
+.rating {
+    direction: rtl;
+    /* Right to left direction for proper star order */
+    unicode-bidi: bidi-override;
+    display: inline-block;
+}
+
+.star {
+    font-size: 25px;
+    /* Size of the stars */
+    position: relative;
+    cursor: pointer;
+    color: lightgray;
+    /* Default color (unselected stars) */
+}
+
+.star.full {
+    color: gold;
+    /* Full star color */
+}
+
+.star.half::before {
+    content: "\2605";
+    /* Star symbol */
+    color: gold;
+    /* Half star color */
+    position: absolute;
+    left: 0;
+    width: 50%;
+    /* Half-width */
+    overflow: hidden;
+    /* Hide the rest */
+}
+
+.star.quarter::before {
+    content: "\2605";
+    /* Star symbol */
+    color: gold;
+    /* Quarter star color */
+    position: absolute;
+    left: 0;
+    width: 25%;
+    /* Quarter-width */
+    overflow: hidden;
+    /* Hide the rest */
+}
+
+.star.empty::before {
+
+    color: lightgray;
+    /* Empty star color */
+}
+
+.review {
+    color: #656770;
+    font-weight: 400;
+}
+.discount{
+    margin-top: 1.5rem;
+}
+
+.discount span{
+    font-weight: 400;
+    font-size: .8rem;
+    color: #656770;
+    text-decoration: line-through;
+}
 /* Small Desktops */
 @media (min-width: 1025px) and (max-width: 1200px) {
 
@@ -1465,17 +1621,21 @@ a.active {
         width: 50%;
         height: 6rem;
     }
-    .contact-hero .contact-image, .contact-hero .contact-contant {
+
+    .contact-hero .contact-image,
+    .contact-hero .contact-contant {
         float: left;
         width: 100%;
         height: 100%;
     }
+
     .contact-hero .contact-contant p {
         width: 23rem;
         margin-top: 1rem;
         line-height: 1.8rem;
         font-size: .9rem;
     }
+
     .contact-form-body {
         margin-top: 5rem;
         margin-bottom: 3rem;
@@ -1484,16 +1644,19 @@ a.active {
         margin-left: 5%;
         margin-right: 5%;
     }
+
     .label {
         font-size: 1rem;
         font-weight: 550;
     }
+
     .btn-contact {
         background-color: #4163DD;
         color: white;
         font-size: 1rem;
         font-weight: 550;
     }
+
     .contact-form-body .form {
         margin-top: 2rem;
         width: 100%;
@@ -2140,18 +2303,21 @@ a.active {
         margin-top: .5rem;
         margin-left: 0;
     }
+
     .students .contant .discription {
         text-transform: capitalize;
         font-size: 1rem;
         line-height: 2rem;
         width: 90%;
     }
+
     .students .image img {
         margin-top: 3rem;
         width: 100%;
         height: 71%;
         object-fit: cover;
     }
+
     .partners .partner-logo .logo img {
         object-fit: cover;
         height: 100%;
