@@ -131,7 +131,7 @@ a.active {
 
 .hero-body {
     width: 100%;
-    height: 520px;
+    height: 31rem;
 }
 
 .hero-body .image {
@@ -460,6 +460,190 @@ a.active {
     text-transform: capitalize;
     text-align: center;
     margin: 0;
+}
+
+.about-hero{
+    width: 90%;
+    height: 340px;
+    margin-top: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2rem;
+}
+
+.about-img{
+    float: left;
+    height: 100%;
+    width: 40%;
+}
+.about-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+.about-contant{
+    float: left;
+    height: 100%;
+    width: 60%;
+}
+
+.about-contant{
+    padding-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+.about-contant h3{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+}
+.about-contant p{
+    padding-right: 0;
+    margin-top: 2rem;
+    line-height: 200%;
+}
+
+.goals{
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    float: left;
+    width: 100%;
+    height: 154px;
+}
+.mission, .vision{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.about-subhead{
+    font-size: 133%;
+    font-weight: 550;
+}
+
+.mission p, .vision p{
+    width: 32rem;
+    text-transform: capitalize;
+}
+
+.team{
+    margin-bottom: 2rem;
+    float: left;
+    width: 100%;
+    height: 805px;
+}
+.team .card{
+    margin-top: 1.5rem;
+    margin-right: 7rem;
+    float: left;
+    width: 23%;   
+    height: 363px;
+    background-color: white;
+    outline: 1px solid #656770;
+    border-radius: 1rem;
+}
+.card .image{
+    margin-top: 1rem;
+    margin-left: 31%;
+    height: 35%;
+    width: 33%;
+    float: left;
+    /* background-color: blue; */
+    border-radius: 50%;
+}
+.card .contant{
+    padding: 0;
+    margin-top: 1rem;
+    float: left;
+    width: 100%;
+    height: 167px;
+}
+.team-name{
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 450;
+}
+
+.about-hero .contant p{
+    margin: 0;
+    padding: 0;
+    margin-top: .5rem;
+    margin-left: 1.6rem;
+}
+
+.students{
+    float: left;
+    width: 100%;
+    height: 350px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.students .contant, .students .image{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.students .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-students{
+    font-size: 1.8rem;
+    font-weight: 480;
+}
+.students .contant .about-students{
+    padding-top: 6rem;
+}
+.students .contant .discription{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 32rem;
+}
+
+.students .contant button{
+    margin-left: 1.3rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #49536B;
+    color: white;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.partners{
+    float: left;
+    height: 200px;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.partners .partner-logo{
+    float: left;
+    width: 100%;
+    height: 160px;
+    margin-top: 1rem;
+}
+
+.partners .partner-logo .logo{
+    margin-top: 1rem;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.partners .partner-logo .logo img{
+    object-fit: cover;
+    height: 100%;
+    width: 60%;
 }
 
 /* Small Desktops */
