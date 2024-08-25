@@ -2346,4 +2346,23 @@ a.active {
         height: 100%;
         width: 86%;
     }
+
+    .course-body .search input {
+        width: 70%;
+        border-radius: 1.3rem;
+        border: 1px solid #656770;
+        padding-left: 2rem;
+        font-size: 1rem;
+    }
+
+    .course-card {
+        float: left;
+        margin-top: 4rem;
+        width: 40%;
+        margin-right: 10%;
+        height: 300px;
+        border-radius: 1rem;
+        border: 1px solid #656770;
+        margin-bottom: 1rem;
+    }
 }
