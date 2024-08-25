@@ -462,7 +462,7 @@ a.active {
     margin: 0;
 }
 
-.about-hero{
+.about-hero {
     width: 90%;
     height: 340px;
     margin-top: 3rem;
@@ -471,78 +471,87 @@ a.active {
     margin-bottom: 2rem;
 }
 
-.about-img{
+.about-img {
     float: left;
     height: 100%;
     width: 40%;
 }
-.about-img img{
+
+.about-img img {
     object-fit: cover;
     width: 100%;
     height: 100%;
     border-radius: 1rem;
 }
-.about-contant{
+
+.about-contant {
     float: left;
     height: 100%;
     width: 60%;
 }
 
-.about-contant{
+.about-contant {
     padding-left: 2rem;
     margin-top: 0.5rem;
 }
 
-.about-contant h3{
+.about-contant h3 {
     font-size: 3rem;
     font-weight: 600;
     line-height: 3.5rem;
 }
-.about-contant p{
+
+.about-contant p {
     padding-right: 0;
     margin-top: 2rem;
     line-height: 200%;
 }
 
-.goals{
+.goals {
     margin-top: 2.5rem;
     margin-bottom: 2rem;
     float: left;
     width: 100%;
     height: 154px;
 }
-.mission, .vision{
+
+.mission,
+.vision {
     float: left;
     width: 50%;
     height: 100%;
 }
-.about-subhead{
+
+.about-subhead {
     font-size: 133%;
     font-weight: 550;
 }
 
-.mission p, .vision p{
+.mission p,
+.vision p {
     width: 32rem;
     text-transform: capitalize;
 }
 
-.team{
+.team {
     margin-bottom: 2rem;
     float: left;
     width: 100%;
     height: 805px;
 }
-.team .card{
+
+.team .card {
     margin-top: 1.5rem;
     margin-right: 7rem;
     float: left;
-    width: 23%;   
+    width: 23%;
     height: 363px;
     background-color: white;
     outline: 1px solid #656770;
     border-radius: 1rem;
 }
-.card .image{
+
+.card .image {
     margin-top: 1rem;
     margin-left: 31%;
     height: 35%;
@@ -551,14 +560,16 @@ a.active {
     /* background-color: blue; */
     border-radius: 50%;
 }
-.card .contant{
+
+.card .contant {
     padding: 0;
     margin-top: 1rem;
     float: left;
     width: 100%;
     height: 167px;
 }
-.team-name{
+
+.team-name {
     margin: 0;
     padding: 0;
     margin-top: 1rem;
@@ -567,47 +578,51 @@ a.active {
     font-weight: 450;
 }
 
-.about-hero .contant p{
+.about-hero .contant p {
     margin: 0;
     padding: 0;
     margin-top: .5rem;
     margin-left: 1.6rem;
 }
 
-.students{
+.students {
     float: left;
     width: 100%;
     height: 350px;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-.students .contant, .students .image{
+
+.students .contant,
+.students .image {
     float: left;
     width: 50%;
     height: 100%;
 }
 
-.students .image img{
+.students .image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.about-students{
+.about-students {
     font-size: 1.8rem;
     font-weight: 480;
 }
-.students .contant .about-students{
+
+.students .contant .about-students {
     padding-top: 6rem;
 }
-.students .contant .discription{
+
+.students .contant .discription {
     text-transform: capitalize;
     font-size: 1.2rem;
     line-height: 2rem;
     width: 32rem;
 }
 
-.students .contant button{
+.students .contant button {
     margin-left: 1.3rem;
     margin-top: 1rem;
     padding: 1rem;
@@ -619,7 +634,7 @@ a.active {
     font-weight: 550;
 }
 
-.partners{
+.partners {
     float: left;
     height: 200px;
     width: 100%;
@@ -627,20 +642,21 @@ a.active {
     margin-bottom: 2rem;
 }
 
-.partners .partner-logo{
+.partners .partner-logo {
     float: left;
     width: 100%;
     height: 160px;
     margin-top: 1rem;
 }
 
-.partners .partner-logo .logo{
+.partners .partner-logo .logo {
     margin-top: 1rem;
     float: left;
     width: 25%;
     height: 100%;
 }
-.partners .partner-logo .logo img{
+
+.partners .partner-logo .logo img {
     object-fit: cover;
     height: 100%;
     width: 60%;
@@ -649,7 +665,7 @@ a.active {
 /* Small Desktops */
 @media (min-width: 1025px) and (max-width: 1200px) {
 
-    
+
     #hero {
         margin-top: 50px;
     }
@@ -1239,6 +1255,130 @@ a.active {
     .twitter img,
     .discord img {
         object-fit: cover;
+    }
+
+    .about-hero {
+        width: 90%;
+        height: 340px;
+        margin-top: 3rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2rem;
+    }
+
+    .about-img {
+        float: left;
+        height: 100%;
+        width: 100%;
+    }
+
+    .about-img img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+    }
+
+    .about-contant {
+        float: left;
+        height: 18rem;
+        width: 100%;
+    }
+
+    .about-contant {
+        padding-left: 0;
+        margin-top: 1rem;
+    }
+
+    .about-contant h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 2.2rem;
+    }
+
+    .about-contant p {
+        padding-right: 0;
+        margin-top: 1rem;
+        line-height: 170%;
+    }
+
+    .mission,
+    .vision {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 2rem;
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+
+    .mission p,
+    .vision p {
+        width: fit-content;
+        text-transform: capitalize;
+    }
+
+    .team {
+        margin-top: 12rem;
+        margin-bottom: 2rem;
+        float: left;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .team .card {
+        margin-left: 15%;
+        margin-top: 1rem;
+        float: left;
+        width: 70%;
+        height: 400px;
+        background-color: white;
+        outline: 1px solid #656770;
+        border-radius: 1rem;
+    }
+
+    .students {
+        float: left;
+        width: 100%;
+        height: 378px;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    .students .image {
+        display: none;
+    }
+
+    .students .contant {
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-students {
+        font-size: 1.5rem;
+        font-weight: 480;
+    }
+
+    .students .contant .discription {
+        text-transform: capitalize;
+        font-size: 1rem;
+        line-height: 2rem;
+        width: fit-content;
+    }
+
+    .partners .partner-logo {
+        float: left;
+        width: 100%;
+        height: fit-content;
+        margin-top: 1rem;
+    }
+
+    .partners .partner-logo .logo {
+        margin-top: 1rem;
+        float: left;
+        width: 50%;
+        height: 6rem;
     }
 
 }
