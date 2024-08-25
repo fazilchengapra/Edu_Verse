@@ -1306,7 +1306,8 @@ a.active {
     .vision {
         margin: 0;
         padding: 0;
-        margin-bottom: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         float: left;
         width: 100%;
         height: 100%;
@@ -1319,7 +1320,7 @@ a.active {
     }
 
     .team {
-        margin-top: 12rem;
+        margin-top: 13rem;
         margin-bottom: 2rem;
         float: left;
         width: 100%;
