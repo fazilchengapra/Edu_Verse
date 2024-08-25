@@ -781,7 +781,8 @@ a.active {
     font-size: 1rem;
 }
 
-.popular-courses, .new-arrivals {
+.popular-courses,
+.new-arrivals {
     float: left;
     margin-top: 3rem;
     width: 100%;
@@ -892,16 +893,18 @@ a.active {
     color: #656770;
     font-weight: 400;
 }
-.discount{
+
+.discount {
     margin-top: 1.5rem;
 }
 
-.discount span{
+.discount span {
     font-weight: 400;
     font-size: .8rem;
     color: #656770;
     text-decoration: line-through;
 }
+
 /* Small Desktops */
 @media (min-width: 1025px) and (max-width: 1200px) {
 
@@ -1664,6 +1667,26 @@ a.active {
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 2rem;
+    }
+
+    .course-body .search input {
+        width: 100%;
+        border-radius: 1.3rem;
+        border: 1px solid #656770;
+        padding-left: 2rem;
+        font-size: 1rem;
+    }
+
+    .course-card {
+        float: left;
+        margin-top: 4rem;
+        width: 80%;
+        margin-right: 12%;
+        margin-left: 10%;
+        height: 300px;
+        border-radius: 1rem;
+        border: 1px solid #656770;
+        margin-bottom: 1rem;
     }
 
 }
