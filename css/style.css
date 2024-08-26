@@ -1289,7 +1289,29 @@ a.active {
     #check:checked~ul {
         left: 0;
     }
+    nav {
+        height: 80px;
+        /* background-color: aliceblue; */
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        background-color: #6C6D78;
+    }
 
+    label.logo {
+        color: white;
+        font-family: "Caveat", cursive;
+        font-size: 35px;
+        text-transform: capitalize;
+        line-height: 80px;
+        padding: 0 50px;
+        font-weight: bold;
+    }
+
+    .check-btn {
+        color: #fff;
+    }
 
 }
 
