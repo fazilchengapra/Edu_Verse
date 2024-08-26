@@ -1302,14 +1302,13 @@ a.active {
     }
 
     .hero-body h1 {
-        font-size: 60%;
+        font-size: 71%;
         line-height: 180%;
     }
-
     .hero-body .discription p {
-        font-size: 90%;
+        font-size: 96%;
         font-weight: 200;
-        line-height: 144%;
+        line-height: 170%;
     }
 
     .hero-body .image {
@@ -1371,7 +1370,7 @@ a.active {
     }
 
     .Unlock-Exclusive {
-        margin-top: 880px;
+        margin-top: 69rem;
         display: block;
         height: 1172px;
         width: 90%;
@@ -1381,7 +1380,7 @@ a.active {
     }
 
     .sub-head {
-        margin-top: 75px;
+        margin-top: 16rem;
     }
 
     .Unlock-Exclusive .sub-head h3 {
