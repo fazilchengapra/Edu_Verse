@@ -1311,6 +1311,9 @@ a.active {
     .check-btn {
         color: #fff;
     }
+    #hero {
+        margin-top: 7rem;
+    }
 
 }
 
